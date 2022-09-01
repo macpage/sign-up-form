@@ -50,7 +50,7 @@ body{
     align-items: center;
     gap: 100px;
     
-    margin-top: -150px;
+    margin-top: -250px;
 }
 
 header{
@@ -114,6 +114,7 @@ input{
     3px 3px 6px 0px rgba(0,0,0,0.3);
     font-size: 16px;
     padding-left: 10px;
+    outline: none;
 }
 
 .logo-background{
@@ -162,4 +163,8 @@ hr{
     background-color: black;
     margin-bottom: 50px;
  
+}
+
+.wrong{
+    border-color: red;
 }
