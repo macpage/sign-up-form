@@ -34,12 +34,12 @@
                     
                     <div>
                         <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Anduin">
+                        <input type="text" name="first-name" id="first-name" placeholder="Anduin" required>
                     </div>
 
                     <div>
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="first-name" id="last-name" placeholder="Wrynn">
+                        <input type="text" name="first-name" id="last-name" placeholder="Wrynn" required>
                     </div>
 
                 </fieldset>
@@ -48,11 +48,11 @@
                     
                     <div>
                         <label for="mail">E-Mail</label>
-                        <input type="email" name="mail" id="mail" placeholder="anwrynn@wowmail.com">
+                        <input type="email" name="mail" id="mail" placeholder="anwrynn@wowmail.com" required>
                     </div>
                     <div>
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" placeholder="0123456789">                        
+                        <input type="tel" name="phone" id="phone" placeholder="0123456789" required>                        
                     </div>
 
                 </fieldset>
@@ -61,29 +61,29 @@
                    
                     <div>
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">                        
+                        <input type="password" name="password" id="password" required>                        
                     </div>
 
-                    <div>
+                    <div class="pass">
                         <label for="con-password">Confirm Password</label>
-                        <input type="password" name="con-password" id="con-password">                        
+                        <input type="password" name="con-password" id="con-password" required>                        
                     </div>
 
                 </fieldset>
                 
-               
+                       <footer>
+            <div>
+                <button type="submit" id="btn">Create Account</button>
+                <p>Already have an account? <a href="http://">Log in</a></p>
+            </div>
+
+        </footer>
                 </form>
             </div>
 
         </main>
 
-        <footer>
-            <div>
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="http://">Log in</a></p>
-            </div>
 
-        </footer>
         </div>
         
 
